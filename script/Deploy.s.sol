@@ -71,6 +71,7 @@ contract DeployIQOS is Script {
             address(dao)
         );
 
+        console.log("Trusted Forwarder deployed at:", address(forwarder));
         console.log("------------------------------------------------");
         console.log("IQOS core deployed at      :", address(core));
         console.log("AccessControl deployed at  :", address(ac));
