@@ -1,0 +1,8 @@
+# Fichiers compilés et cache
+out/
+cache/
+broadcast/
+
+# Sécurité
+.env
+.DS_Store
